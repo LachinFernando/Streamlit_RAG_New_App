@@ -13,7 +13,10 @@ def get_response(conversation):
 
 
 # web title
-st.title("Message with AI")
+st.title("Message with OPEN AI")
+
+# explanation
+st.write("This page mainly helps the user to message with OPENAI.")
 
 # text input
 text = st.text_input("Ask a Question")
